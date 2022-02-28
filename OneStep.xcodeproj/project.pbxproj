@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7548D2527CBE28C00B17A1A /* OneStepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D2427CBE28C00B17A1A /* OneStepApp.swift */; };
+		F7548D2727CBE28C00B17A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D2627CBE28C00B17A1A /* ContentView.swift */; };
+		F7548D2927CBE28E00B17A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7548D2827CBE28E00B17A1A /* Assets.xcassets */; };
+		F7548D2C27CBE28E00B17A1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7548D2B27CBE28E00B17A1A /* Preview Assets.xcassets */; };
+		F7548D3627CBE28E00B17A1A /* OneStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D3527CBE28E00B17A1A /* OneStepTests.swift */; };
+		F7548D4027CBE28E00B17A1A /* OneStepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D3F27CBE28E00B17A1A /* OneStepUITests.swift */; };
+		F7548D4227CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D4127CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift */; };
+		F7548D4F27CBE2B800B17A1A /* URLSession+Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D4E27CBE2B800B17A1A /* URLSession+Flickr.swift */; };
+		F7548D5127CBE92100B17A1A /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5027CBE92100B17A1A /* FlickrResponse.swift */; };
+		F7548D5327CBF06900B17A1A /* OneStepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5227CBF06900B17A1A /* OneStepViewModel.swift */; };
+		F7548D5627CE2EB200B17A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5527CE2EB200B17A1A /* AppDelegate.swift */; };
+		F7548D5827CE426600B17A1A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5727CE426600B17A1A /* Constants.swift */; };
+		F7548D5A27CE42C900B17A1A /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5927CE42C900B17A1A /* NotificationNameExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7548D3227CBE28E00B17A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7548D1927CBE28C00B17A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7548D2027CBE28C00B17A1A;
+			remoteInfo = OneStep;
+		};
+		F7548D3C27CBE28E00B17A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7548D1927CBE28C00B17A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7548D2027CBE28C00B17A1A;
+			remoteInfo = OneStep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7548D2127CBE28C00B17A1A /* OneStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7548D2427CBE28C00B17A1A /* OneStepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepApp.swift; sourceTree = "<group>"; };
+		F7548D2627CBE28C00B17A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7548D2827CBE28E00B17A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7548D2B27CBE28E00B17A1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7548D3127CBE28E00B17A1A /* OneStepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7548D3527CBE28E00B17A1A /* OneStepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTests.swift; sourceTree = "<group>"; };
+		F7548D3B27CBE28E00B17A1A /* OneStepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7548D3F27CBE28E00B17A1A /* OneStepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepUITests.swift; sourceTree = "<group>"; };
+		F7548D4127CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7548D4E27CBE2B800B17A1A /* URLSession+Flickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Flickr.swift"; sourceTree = "<group>"; };
+		F7548D5027CBE92100B17A1A /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
+		F7548D5227CBF06900B17A1A /* OneStepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepViewModel.swift; sourceTree = "<group>"; };
+		F7548D5527CE2EB200B17A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7548D5727CE426600B17A1A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7548D5927CE42C900B17A1A /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		F7548D5B27CE461700B17A1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7548D1E27CBE28C00B17A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7548D2E27CBE28E00B17A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7548D3827CBE28E00B17A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7548D1827CBE28C00B17A1A = {
+			isa = PBXGroup;
+			children = (
+				F7548D5B27CE461700B17A1A /* README.md */,
+				F7548D2327CBE28C00B17A1A /* OneStep */,
+				F7548D3427CBE28E00B17A1A /* OneStepTests */,
+				F7548D3E27CBE28E00B17A1A /* OneStepUITests */,
+				F7548D2227CBE28C00B17A1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7548D2227CBE28C00B17A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7548D2127CBE28C00B17A1A /* OneStep.app */,
+				F7548D3127CBE28E00B17A1A /* OneStepTests.xctest */,
+				F7548D3B27CBE28E00B17A1A /* OneStepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7548D2327CBE28C00B17A1A /* OneStep */ = {
+			isa = PBXGroup;
+			children = (
+				F7548D2427CBE28C00B17A1A /* OneStepApp.swift */,
+				F7548D2627CBE28C00B17A1A /* ContentView.swift */,
+				F7548D2827CBE28E00B17A1A /* Assets.xcassets */,
+				F7548D2A27CBE28E00B17A1A /* Preview Content */,
+				F7548D4E27CBE2B800B17A1A /* URLSession+Flickr.swift */,
+				F7548D5027CBE92100B17A1A /* FlickrResponse.swift */,
+				F7548D5227CBF06900B17A1A /* OneStepViewModel.swift */,
+				F7548D5527CE2EB200B17A1A /* AppDelegate.swift */,
+				F7548D5727CE426600B17A1A /* Constants.swift */,
+				F7548D5927CE42C900B17A1A /* NotificationNameExtension.swift */,
+			);
+			path = OneStep;
+			sourceTree = "<group>";
+		};
+		F7548D2A27CBE28E00B17A1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7548D2B27CBE28E00B17A1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7548D3427CBE28E00B17A1A /* OneStepTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7548D3527CBE28E00B17A1A /* OneStepTests.swift */,
+			);
+			path = OneStepTests;
+			sourceTree = "<group>";
+		};
+		F7548D3E27CBE28E00B17A1A /* OneStepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7548D3F27CBE28E00B17A1A /* OneStepUITests.swift */,
+				F7548D4127CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift */,
+			);
+			path = OneStepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7548D2027CBE28C00B17A1A /* OneStep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7548D4527CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStep" */;
+			buildPhases = (
+				F7548D1D27CBE28C00B17A1A /* Sources */,
+				F7548D1E27CBE28C00B17A1A /* Frameworks */,
+				F7548D1F27CBE28C00B17A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneStep;
+			productName = OneStep;
+			productReference = F7548D2127CBE28C00B17A1A /* OneStep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7548D3027CBE28E00B17A1A /* OneStepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7548D4827CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepTests" */;
+			buildPhases = (
+				F7548D2D27CBE28E00B17A1A /* Sources */,
+				F7548D2E27CBE28E00B17A1A /* Frameworks */,
+				F7548D2F27CBE28E00B17A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7548D3327CBE28E00B17A1A /* PBXTargetDependency */,
+			);
+			name = OneStepTests;
+			productName = OneStepTests;
+			productReference = F7548D3127CBE28E00B17A1A /* OneStepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7548D3A27CBE28E00B17A1A /* OneStepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7548D4B27CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepUITests" */;
+			buildPhases = (
+				F7548D3727CBE28E00B17A1A /* Sources */,
+				F7548D3827CBE28E00B17A1A /* Frameworks */,
+				F7548D3927CBE28E00B17A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7548D3D27CBE28E00B17A1A /* PBXTargetDependency */,
+			);
+			name = OneStepUITests;
+			productName = OneStepUITests;
+			productReference = F7548D3B27CBE28E00B17A1A /* OneStepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7548D1927CBE28C00B17A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F7548D2027CBE28C00B17A1A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F7548D3027CBE28E00B17A1A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F7548D2027CBE28C00B17A1A;
+					};
+					F7548D3A27CBE28E00B17A1A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F7548D2027CBE28C00B17A1A;
+					};
+				};
+			};
+			buildConfigurationList = F7548D1C27CBE28C00B17A1A /* Build configuration list for PBXProject "OneStep" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7548D1827CBE28C00B17A1A;
+			productRefGroup = F7548D2227CBE28C00B17A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7548D2027CBE28C00B17A1A /* OneStep */,
+				F7548D3027CBE28E00B17A1A /* OneStepTests */,
+				F7548D3A27CBE28E00B17A1A /* OneStepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7548D1F27CBE28C00B17A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7548D2C27CBE28E00B17A1A /* Preview Assets.xcassets in Resources */,
+				F7548D2927CBE28E00B17A1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7548D2F27CBE28E00B17A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7548D3927CBE28E00B17A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7548D1D27CBE28C00B17A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7548D5627CE2EB200B17A1A /* AppDelegate.swift in Sources */,
+				F7548D2727CBE28C00B17A1A /* ContentView.swift in Sources */,
+				F7548D5127CBE92100B17A1A /* FlickrResponse.swift in Sources */,
+				F7548D2527CBE28C00B17A1A /* OneStepApp.swift in Sources */,
+				F7548D5827CE426600B17A1A /* Constants.swift in Sources */,
+				F7548D5327CBF06900B17A1A /* OneStepViewModel.swift in Sources */,
+				F7548D4F27CBE2B800B17A1A /* URLSession+Flickr.swift in Sources */,
+				F7548D5A27CE42C900B17A1A /* NotificationNameExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7548D2D27CBE28E00B17A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7548D3627CBE28E00B17A1A /* OneStepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7548D3727CBE28E00B17A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7548D4027CBE28E00B17A1A /* OneStepUITests.swift in Sources */,
+				F7548D4227CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7548D3327CBE28E00B17A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7548D2027CBE28C00B17A1A /* OneStep */;
+			targetProxy = F7548D3227CBE28E00B17A1A /* PBXContainerItemProxy */;
+		};
+		F7548D3D27CBE28E00B17A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7548D2027CBE28C00B17A1A /* OneStep */;
+			targetProxy = F7548D3C27CBE28E00B17A1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7548D4327CBE28E00B17A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7548D4427CBE28E00B17A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7548D4627CBE28E00B17A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneStep/Preview Content\"";
+				DEVELOPMENT_TEAM = QVFV4L55P3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneStep/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We will use your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7548D4727CBE28E00B17A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneStep/Preview Content\"";
+				DEVELOPMENT_TEAM = QVFV4L55P3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneStep/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We will use your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7548D4927CBE28E00B17A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QVFV4L55P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStep.app/OneStep";
+			};
+			name = Debug;
+		};
+		F7548D4A27CBE28E00B17A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QVFV4L55P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStep.app/OneStep";
+			};
+			name = Release;
+		};
+		F7548D4C27CBE28E00B17A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QVFV4L55P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneStep;
+			};
+			name = Debug;
+		};
+		F7548D4D27CBE28E00B17A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QVFV4L55P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneStep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7548D1C27CBE28C00B17A1A /* Build configuration list for PBXProject "OneStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7548D4327CBE28E00B17A1A /* Debug */,
+				F7548D4427CBE28E00B17A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7548D4527CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7548D4627CBE28E00B17A1A /* Debug */,
+				F7548D4727CBE28E00B17A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7548D4827CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7548D4927CBE28E00B17A1A /* Debug */,
+				F7548D4A27CBE28E00B17A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7548D4B27CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7548D4C27CBE28E00B17A1A /* Debug */,
+				F7548D4D27CBE28E00B17A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7548D1927CBE28C00B17A1A /* Project object */;
+}
