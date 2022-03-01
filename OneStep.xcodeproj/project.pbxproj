@@ -11,9 +11,6 @@
 		F7548D2727CBE28C00B17A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D2627CBE28C00B17A1A /* ContentView.swift */; };
 		F7548D2927CBE28E00B17A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7548D2827CBE28E00B17A1A /* Assets.xcassets */; };
 		F7548D2C27CBE28E00B17A1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7548D2B27CBE28E00B17A1A /* Preview Assets.xcassets */; };
-		F7548D3627CBE28E00B17A1A /* OneStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D3527CBE28E00B17A1A /* OneStepTests.swift */; };
-		F7548D4027CBE28E00B17A1A /* OneStepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D3F27CBE28E00B17A1A /* OneStepUITests.swift */; };
-		F7548D4227CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D4127CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift */; };
 		F7548D4F27CBE2B800B17A1A /* URLSession+Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D4E27CBE2B800B17A1A /* URLSession+Flickr.swift */; };
 		F7548D5127CBE92100B17A1A /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5027CBE92100B17A1A /* FlickrResponse.swift */; };
 		F7548D5327CBF06900B17A1A /* OneStepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5227CBF06900B17A1A /* OneStepViewModel.swift */; };
@@ -22,34 +19,12 @@
 		F7548D5A27CE42C900B17A1A /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7548D5927CE42C900B17A1A /* NotificationNameExtension.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F7548D3227CBE28E00B17A1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7548D1927CBE28C00B17A1A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7548D2027CBE28C00B17A1A;
-			remoteInfo = OneStep;
-		};
-		F7548D3C27CBE28E00B17A1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7548D1927CBE28C00B17A1A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7548D2027CBE28C00B17A1A;
-			remoteInfo = OneStep;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		F7548D2127CBE28C00B17A1A /* OneStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7548D2427CBE28C00B17A1A /* OneStepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepApp.swift; sourceTree = "<group>"; };
 		F7548D2627CBE28C00B17A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7548D2827CBE28E00B17A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7548D2B27CBE28E00B17A1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F7548D3127CBE28E00B17A1A /* OneStepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7548D3527CBE28E00B17A1A /* OneStepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTests.swift; sourceTree = "<group>"; };
-		F7548D3B27CBE28E00B17A1A /* OneStepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7548D3F27CBE28E00B17A1A /* OneStepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepUITests.swift; sourceTree = "<group>"; };
-		F7548D4127CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7548D4E27CBE2B800B17A1A /* URLSession+Flickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Flickr.swift"; sourceTree = "<group>"; };
 		F7548D5027CBE92100B17A1A /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
 		F7548D5227CBF06900B17A1A /* OneStepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepViewModel.swift; sourceTree = "<group>"; };
@@ -67,20 +42,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7548D2E27CBE28E00B17A1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7548D3827CBE28E00B17A1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,8 +50,6 @@
 			children = (
 				F7548D5B27CE461700B17A1A /* README.md */,
 				F7548D2327CBE28C00B17A1A /* OneStep */,
-				F7548D3427CBE28E00B17A1A /* OneStepTests */,
-				F7548D3E27CBE28E00B17A1A /* OneStepUITests */,
 				F7548D2227CBE28C00B17A1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				F7548D2127CBE28C00B17A1A /* OneStep.app */,
-				F7548D3127CBE28E00B17A1A /* OneStepTests.xctest */,
-				F7548D3B27CBE28E00B17A1A /* OneStepUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,23 +87,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F7548D3427CBE28E00B17A1A /* OneStepTests */ = {
-			isa = PBXGroup;
-			children = (
-				F7548D3527CBE28E00B17A1A /* OneStepTests.swift */,
-			);
-			path = OneStepTests;
-			sourceTree = "<group>";
-		};
-		F7548D3E27CBE28E00B17A1A /* OneStepUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F7548D3F27CBE28E00B17A1A /* OneStepUITests.swift */,
-				F7548D4127CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift */,
-			);
-			path = OneStepUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,42 +107,6 @@
 			productReference = F7548D2127CBE28C00B17A1A /* OneStep.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7548D3027CBE28E00B17A1A /* OneStepTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7548D4827CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepTests" */;
-			buildPhases = (
-				F7548D2D27CBE28E00B17A1A /* Sources */,
-				F7548D2E27CBE28E00B17A1A /* Frameworks */,
-				F7548D2F27CBE28E00B17A1A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7548D3327CBE28E00B17A1A /* PBXTargetDependency */,
-			);
-			name = OneStepTests;
-			productName = OneStepTests;
-			productReference = F7548D3127CBE28E00B17A1A /* OneStepTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F7548D3A27CBE28E00B17A1A /* OneStepUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7548D4B27CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepUITests" */;
-			buildPhases = (
-				F7548D3727CBE28E00B17A1A /* Sources */,
-				F7548D3827CBE28E00B17A1A /* Frameworks */,
-				F7548D3927CBE28E00B17A1A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7548D3D27CBE28E00B17A1A /* PBXTargetDependency */,
-			);
-			name = OneStepUITests;
-			productName = OneStepUITests;
-			productReference = F7548D3B27CBE28E00B17A1A /* OneStepUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,14 +119,6 @@
 				TargetAttributes = {
 					F7548D2027CBE28C00B17A1A = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					F7548D3027CBE28E00B17A1A = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = F7548D2027CBE28C00B17A1A;
-					};
-					F7548D3A27CBE28E00B17A1A = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = F7548D2027CBE28C00B17A1A;
 					};
 				};
 			};
@@ -240,8 +136,6 @@
 			projectRoot = "";
 			targets = (
 				F7548D2027CBE28C00B17A1A /* OneStep */,
-				F7548D3027CBE28E00B17A1A /* OneStepTests */,
-				F7548D3A27CBE28E00B17A1A /* OneStepUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,20 +147,6 @@
 			files = (
 				F7548D2C27CBE28E00B17A1A /* Preview Assets.xcassets in Resources */,
 				F7548D2927CBE28E00B17A1A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7548D2F27CBE28E00B17A1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7548D3927CBE28E00B17A1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,37 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7548D2D27CBE28E00B17A1A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7548D3627CBE28E00B17A1A /* OneStepTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7548D3727CBE28E00B17A1A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7548D4027CBE28E00B17A1A /* OneStepUITests.swift in Sources */,
-				F7548D4227CBE28E00B17A1A /* OneStepUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F7548D3327CBE28E00B17A1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7548D2027CBE28C00B17A1A /* OneStep */;
-			targetProxy = F7548D3227CBE28E00B17A1A /* PBXContainerItemProxy */;
-		};
-		F7548D3D27CBE28E00B17A1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7548D2027CBE28C00B17A1A /* OneStep */;
-			targetProxy = F7548D3C27CBE28E00B17A1A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F7548D4327CBE28E00B17A1A /* Debug */ = {
@@ -503,82 +353,6 @@
 			};
 			name = Release;
 		};
-		F7548D4927CBE28E00B17A1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVFV4L55P3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStep.app/OneStep";
-			};
-			name = Debug;
-		};
-		F7548D4A27CBE28E00B17A1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVFV4L55P3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStep.app/OneStep";
-			};
-			name = Release;
-		};
-		F7548D4C27CBE28E00B17A1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVFV4L55P3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OneStep;
-			};
-			name = Debug;
-		};
-		F7548D4D27CBE28E00B17A1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVFV4L55P3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mmm.OneStepUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OneStep;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -596,24 +370,6 @@
 			buildConfigurations = (
 				F7548D4627CBE28E00B17A1A /* Debug */,
 				F7548D4727CBE28E00B17A1A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7548D4827CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7548D4927CBE28E00B17A1A /* Debug */,
-				F7548D4A27CBE28E00B17A1A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7548D4B27CBE28E00B17A1A /* Build configuration list for PBXNativeTarget "OneStepUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7548D4C27CBE28E00B17A1A /* Debug */,
-				F7548D4D27CBE28E00B17A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
