@@ -19,7 +19,5 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         let task = BGAppRefreshTaskRequest(identifier: "com.oneStep.refreshTimer")
         task.earliestBeginDate = Date(timeIntervalSinceNow: Constants.timeout)
         try? BGTaskScheduler.shared.submit(task)
-        
-        return
     }
 }

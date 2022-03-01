@@ -25,7 +25,6 @@ struct ContentView<ViewModel: OneStepViewModelProtocol>: View {
                     Button(viewModel.buttonText, action: viewModel.buttonAction)
                 }
             }
-            
             .navigationTitle("OneStep")
             .navigationBarTitleDisplayMode(.inline)
         }
